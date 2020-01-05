@@ -496,6 +496,34 @@
 
 
 
+  <div id="giteement-ctn"></div>
+  
+    <!-- <link rel="stylesheet" href="https://giteement.oss-cn-beijing.aliyuncs.com/wd-discuss.css"> -->
+    <!-- <script src="https://giteement.oss-cn-beijing.aliyuncs.com/discuss_hexo.js"></script> -->
+    <link rel="stylesheet" href="https://giteement.oss-cn-beijing.aliyuncs.com/default.css">
+    <script src="https://giteement.oss-cn-beijing.aliyuncs.com/giteement.browser.js"></script>
+  
+  <script>
+  <!-- id: "如何利用Github+Hexo搭建个人博客" -->
+  var giteement = new Giteement({
+    id: '20200104105333',
+    owner: 'aries_chen',
+    repo: 'https://gitee.com/aries_chen/BlogComment.git',
+    backcall_uri: 'https://git-aries.github.io/',
+    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+    oauth: {
+      client_id: '544d4665054f32548d6b7af337982154975ffa2f0fb57dff5faa8368de85f815',
+      client_secret: 'a5c069616edaebff57e86c2ad4ed66998b86b8d25b73c295ecc358c8ff81b5d2'
+    },
+  })
+  giteement.render('giteement-ctn')
+  </script>
+
+
+
+
+ 
+
 
 
 
@@ -604,14 +632,6 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">心情</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">博客</a>
               </li>
              
@@ -625,6 +645,14 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">心情</a>
               </li>
             
             <div class="clearfix"></div>
